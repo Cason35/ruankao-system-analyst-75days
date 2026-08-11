@@ -26,8 +26,9 @@
 
 ## 当前课程
 
-- Day 01：系统分析师视角、信息系统与需求层次
-- 作业状态：待提交
+- Day 02：系统工程、系统特性与系统思维
+- Day 01：已批改，79/100；专项订正已纳入 Day 02 作业
+- Day 02 作业状态：待完成
 
 ## 隐私约定
 
@@ -37,4 +38,3 @@
 
 - [系统分析师考试说明](https://www.ruankao.org.cn/article/content/ksjs/03_02.html)
 - [2026 年度考试工作安排](https://www.ruankao.org.cn/article/content/2603051204118156470700001.html)
-
