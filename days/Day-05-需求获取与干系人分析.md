@@ -162,14 +162,20 @@ flowchart LR
 识别之后，还要分析不同干系人的影响力、关注度、诉求、参与方式和决策权限。
 
 ```mermaid
-quadrantChart
-    title 干系人权力—关注度矩阵
-    x-axis 低关注度 --> 高关注度
-    y-axis 低权力 --> 高权力
-    quadrant-1 密切管理
-    quadrant-2 令其满意
-    quadrant-3 随时告知
-    quadrant-4 定期监测
+flowchart TB
+    subgraph M["干系人权力-关注度矩阵（左低关注 → 右高关注）"]
+        direction TB
+        subgraph HP["高权力"]
+            direction LR
+            Q2["令其满意"]
+            Q1["密切管理"]
+        end
+        subgraph LP["低权力"]
+            direction LR
+            Q3["定期监测"]
+            Q4["随时告知"]
+        end
+    end
 ```
 
 | 权力 | 关注度 | 常用策略 | 示例 |
